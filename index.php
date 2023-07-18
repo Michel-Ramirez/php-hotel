@@ -23,16 +23,21 @@ include './includes/data.php';
             display: flex;
             align-items: center;
         }
+
+        form {
+            width: 100px;
+        }
     </style>
 </head>
 
 <body>
-    <header>
-        <?php include './includes/header.php' ?>
-    </header>
-    <main class="mt-5">
-        <?php include './includes/main.php' ?>
-    </main>
+
+    <!-- HEADER -->
+    <?php include './includes/header.php' ?>
+
+    <!-- MAIN -->
+    <?php include './includes/main.php' ?>
+
 </body>
 
 </html>

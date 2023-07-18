@@ -2,7 +2,9 @@
 
 include './includes/data.php';
 
+// $select_parking = $_GET['parking'];
 
+// var_dump($select_parking);
 
 ?>
 

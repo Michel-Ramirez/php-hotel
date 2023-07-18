@@ -4,7 +4,7 @@
             <tr>
                 <th scope="col">Nome Hotel</th>
                 <th scope="col">Descrizione</th>
-                <th scope="col">Parcheggio disponibile</th>
+                <th scope="col">Parcheggio riservato</th>
                 <th scope="col">Voto</th>
                 <th scope="col">Distanza dal centro</th>
             </tr>

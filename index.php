@@ -12,22 +12,24 @@ include './includes/data.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Hotels</title>
+    <style>
+        header {
+            height: 100px;
+            border-bottom: 1px solid black;
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
-    <main>
-        <ul>
-            <?php foreach ($hotels as $hotel) : ?>
-                <li>
-                    <p>Nome : <?= $hotel['name'] ?> </p>
-                    <p>Descrizione : <?= $hotel['description'] ?> </p>
-                    <p>Parking : <?= $hotel['parking'] ? 'Si' : 'No' ?> </p>
-                    <p>Voto : <?= $hotel['vote'] ?> </p>
-                    <p>Distanza dal centro : <?= $hotel['distance_to_center'] ?> km </p>
-                </li>
-            <?php endforeach ?>
-        </ul>
+    <header>
+        <?php include './includes/header.php' ?>
+    </header>
+    <main class="mt-5">
+        <?php include './includes/main.php' ?>
     </main>
 </body>
 

@@ -2,9 +2,6 @@
 
 include './includes/data.php';
 
-// $select_parking = $_GET['parking'];
-
-// var_dump($select_parking);
 
 ?>
 
@@ -32,8 +29,7 @@ include './includes/data.php';
 
 <body>
 
-    <!-- HEADER -->
-    <?php include './includes/header.php' ?>
+    <!-- <?php include './includes/header.php' ?> -->
 
     <!-- MAIN -->
     <?php include './includes/main.php' ?>
